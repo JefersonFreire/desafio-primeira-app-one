@@ -75,7 +75,7 @@ public class Main {
                     opcao = 4;
                     break;
                 default:
-                    if (opcao < 0  || opcao > 4) {
+                    if (opcao > 4) {
                         System.out.println("\nEscolha uma opção válida!\n");
                     }
             }
