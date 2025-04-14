@@ -70,10 +70,10 @@ public class Main {
                         System.out.println("\nSaldo insuficiente!");
                     }
                     System.out.println("\n----------------------------------------------------\n");
+                    break;
                 case 4:
                     System.out.println("Sair");
                     opcao = 4;
-                    break;
                 default:
                     if (opcao > 4) {
                         System.out.println("\nEscolha uma opção válida!\n");
